@@ -3,6 +3,7 @@ import { Select, Form } from 'antd';
 const { Option } = Select;
 
 const PRECISIONS = [
+    { label: '0 (1)', value: 0 },
     { label: '1 (1.0)', value: 1 },
     { label: '2 (1.00)', value: 2 },
     { label: '3 (1.000)', value: 3 },
